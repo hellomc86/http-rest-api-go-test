@@ -1,0 +1,6 @@
+env: "prod"
+storage_path: "host=localhost user=postgres password=root dbname=postgres sslmode=disable"
+http_server:
+  address: "0.0.0.0:8082"
+  timeout: 20s
+  idle_timeout: 60s  
